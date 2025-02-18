@@ -12,8 +12,8 @@ const orbitron = Orbitron({
 });
 
 export const metadata: Metadata = {
-  title: "Space Portfolio",
-  description: "This is my portfolio",
+  title: "WrddX Portfolio",
+  description: "My Personal Portfolio",
 };
 
 export default function RootLayout({
