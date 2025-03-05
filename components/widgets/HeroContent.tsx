@@ -71,9 +71,10 @@ const HeroContent = () => {
         <Image
           src="/extra.png"
           alt="stacked image"
+          layout="responsive"
           height={240}
           width={240}
-          className="absolute top-[3%] right-[7%] z-10"
+          className="absolute top-[3%] right-[7%] z-10 max-w-[38%] max-h-[38%]"
         />
       </motion.div>
     </motion.div>
