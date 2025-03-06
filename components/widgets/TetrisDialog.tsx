@@ -124,7 +124,7 @@ const TetrisDialog = ({ isOpen, onClose }: TetrisDialogProps) => {
     } else {
       mergePiece();
     }
-  }, [currentPiece, position, board]);
+  }, [currentPiece, position, board, checkCollision, mergePiece]);
 
   const moveLeft = () => {
     if (!checkCollision(currentPiece, { ...position, x: position.x - 1 })) {
@@ -153,7 +153,7 @@ const TetrisDialog = ({ isOpen, onClose }: TetrisDialogProps) => {
       const interval = setInterval(moveDown, 1000);
       return () => clearInterval(interval);
     }
-  }, [isOpen, gameOver]);
+  }, [isOpen, gameOver, initBoard, moveDown]);
 
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
@@ -177,7 +177,17 @@ const TetrisDialog = ({ isOpen, onClose }: TetrisDialogProps) => {
 
     window.addEventListener("keydown", handleKeyPress);
     return () => window.removeEventListener("keydown", handleKeyPress);
-  }, [isOpen, gameOver, currentPiece, position, board]);
+  }, [
+    isOpen,
+    gameOver,
+    currentPiece,
+    position,
+    board,
+    moveDown,
+    moveLeft,
+    moveRight,
+    rotate,
+  ]);
 
   return (
     <AnimatePresence>
