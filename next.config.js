@@ -10,7 +10,17 @@ const nextConfig = {
     return config;
   },
   images: {
-    domains: ["images.unsplash.com"],
+    dangerouslyAllowSVG: true,
+    contentDispositionType: "attachment",
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "skillicons.dev",
+        port: "",
+        pathname: "/icons/**",
+      },
+    ],
   },
   async rewrites() {
     return [];

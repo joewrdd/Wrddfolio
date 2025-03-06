@@ -128,8 +128,8 @@ export const Skill_data = [
 
 export const Socials = [
   {
-    name: "Instagram",
-    src: "/instagram.svg",
+    name: "Vercel",
+    src: "/vercel.png",
   },
   {
     name: "GitHub",
