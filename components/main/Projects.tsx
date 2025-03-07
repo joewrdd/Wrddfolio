@@ -19,6 +19,13 @@ const Projects = () => {
           skills={["Flutter", "Dart", "CoinGeckoNews", "Web3API"]}
         />
         <ProjectCard
+          src="/jukyomall.png"
+          link="https://youtube.com/shorts/IUnKFGLb22E?si=6tBCe5Nf43w3p9Hb"
+          title="JukyoMall MS"
+          description="A modern and feature-rich e-commerce mobile application built with Flutter and Firebase, offering a seamless shopping experience with robust user management and product handling capabilities. Users can browse products, add them to their cart, and place orders. Admins (Coming Soon) can manage products, orders, and users, and view sales analytics."
+          skills={["Flutter", "Dart", "Fire base"]}
+        />
+        <ProjectCard
           src="/2.png"
           link="https://youtube.com/shorts/2Aa40WlWTU8?si=u5ot-gJwZd7LVK5Q"
           title="WrddWallet Flutter"
