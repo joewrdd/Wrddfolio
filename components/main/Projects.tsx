@@ -46,6 +46,13 @@ const Projects = () => {
           description="An AI-powered buddy using Gemini AI, where users can chat with the bot about various topics, similar to ChatGPT. Additionally, users can upload images and PDFs for summarization and explanation. For users to login, they need to provide a private Gemini API Key that can be provided from their official website when you sign up for a free account."
           skills={["Flutter", "Dart", "Gemini", "Hive"]}
         />
+        <ProjectCard
+          src="/5.png"
+          link="https://youtube.com/shorts/jx3vP4s0-Ew?si=DKR8xHz8_3r9g8rA"
+          title="Riwaya."
+          description="Riwaya is a modern coffee shop mobile app built with Flutter that offers a seamless ordering experience. The app features an elegant UI with curved animations, intuitive product browsing across categories, detailed customization options, and a smooth checkout process. Users can earn & collect points which result in earning rewards, all while enjoying a premium coffee-ordering experience."
+          skills={["Flutter", "Dart", "Fire base"]}
+        />
       </div>
     </div>
   );
