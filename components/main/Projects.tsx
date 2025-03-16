@@ -53,6 +53,13 @@ const Projects = () => {
           description="Riwaya is a modern coffee shop mobile app built with Flutter that offers a seamless ordering experience. The app features an elegant UI with curved animations, intuitive product browsing across categories, detailed customization options, and a smooth checkout process. Users can earn & collect points which result in earning rewards, all while enjoying a premium coffee-ordering experience."
           skills={["Flutter", "Dart", "Fire base"]}
         />
+        <ProjectCard
+          src="/6.png"
+          link="https://www.youtube.com/watch?v=Kxwv9YltdiU"
+          title="Otaku Wrdd"
+          description="OtakuWrdd an anime and manga tracking application built with Flutter and Firebase, offering users a seamless experience to discover, track, and manage their anime and manga collections. All data is fetched by Anime & Manga specific API's, and users can also search for any anime or manga they want by just a click of a button. Otaku Wrdd -_-"
+          skills={["Flutter", "Dart", "Fire base"]}
+        />
       </div>
     </div>
   );
