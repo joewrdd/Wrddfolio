@@ -2,7 +2,7 @@
 
 Im, Joe Ward, and this is my personal portfolio website built with [Next.js](https://nextjs.org/).
 
-Stating what i did throught my Software Engineering Journey.
+Stating what i did throught my Software Engineering Journey (Mainly Flutter).
 
 If You Want To Run This Project Locally, You Can Follow These Steps:
 
