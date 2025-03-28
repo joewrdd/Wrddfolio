@@ -33,7 +33,7 @@ const Tab = ({ children, setPosition }: TabProps) => {
     >
       <a
         href={`#${children.toLowerCase().replace(/\s+/g, "-")}`}
-        className="px-3 py-1.5 block"
+        className="px-1 sm:px-2 md:px-3 py-1.5 block text-[10px] sm:text-xs whitespace-nowrap"
       >
         {children}
       </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
   });
 
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-2 sm:px-4 md:px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="#about-me"
@@ -77,17 +77,17 @@ const Navbar = () => {
           <Image
             src="/WRDD AI-2.png"
             alt="logo"
-            width={60}
-            height={60}
-            className="cursor-pointer hover:animate-slowspin"
+            width={45}
+            height={45}
+            className="cursor-pointer hover:animate-slowspin sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px]"
           />
 
-          <span className="font-bold ml-[10px] hidden md:block text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-white">
+          <span className="font-bold ml-[6px] sm:ml-[8px] md:ml-[10px] hidden sm:block text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-white text-sm md:text-base">
             WrddX
           </span>
         </a>
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
+        <div className="flex-1 flex items-center justify-center mx-1 sm:mx-2 md:mx-4">
           <ul
             onMouseLeave={() => {
               setPosition((pv) => ({
@@ -95,7 +95,7 @@ const Navbar = () => {
                 opacity: 0,
               }));
             }}
-            className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 relative"
+            className="flex items-center justify-between w-full max-w-[300px] sm:max-w-[350px] md:max-w-[450px] h-auto border border-[#7042f861] bg-[#0300145e] px-[8px] sm:px-[12px] md:px-[20px] py-[8px] md:py-[10px] rounded-full text-gray-200 relative"
           >
             <Tab setPosition={setPosition}>About me</Tab>
             <Tab setPosition={setPosition}>Skills</Tab>
@@ -104,14 +104,15 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="flex flex-row gap-5">
+        <div className="flex flex-row gap-1 sm:gap-3 md:gap-5">
           {Socials.map((social) => (
             <Image
               src={social.src}
               alt={social.name}
               key={social.name}
-              width={24}
-              height={24}
+              width={20}
+              height={20}
+              className="sm:w-[22px] sm:h-[22px] md:w-[24px] md:h-[24px]"
             />
           ))}
         </div>
