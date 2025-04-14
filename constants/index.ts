@@ -47,6 +47,12 @@ export const skillsImagesData = [
     width: 32,
     height: 32,
   },
+  {
+    skill_name: "Flame",
+    Image: "/flutterflame.png",
+    width: 34,
+    height: 34,
+  },
 ];
 
 export const Skill_data = [

@@ -26,6 +26,20 @@ const Projects = () => {
           skills={["Flutter", "Dart", "Fire base"]}
         />
         <ProjectCard
+          src="/6.png"
+          link="https://www.youtube.com/watch?v=Kxwv9YltdiU"
+          title="Otaku Wrdd"
+          description="OtakuWrdd an anime and manga tracking application built with Flutter and Firebase, offering users a seamless experience to discover, track, and manage their anime and manga collections. All data is fetched by Anime & Manga specific API's, and users can also search for any anime or manga they want by just a click of a button. Otaku Wrdd -_-"
+          skills={["Flutter", "Dart", "Fire base"]}
+        />
+        <ProjectCard
+          src="/5.png"
+          link="https://youtube.com/shorts/jx3vP4s0-Ew?si=DKR8xHz8_3r9g8rA"
+          title="Riwaya."
+          description="Riwaya is a modern coffee shop mobile app built with Flutter that offers a seamless ordering experience. The app features an elegant UI with curved animations, intuitive product browsing across categories, detailed customization options, and a smooth checkout process. Users can earn & collect points which result in earning rewards, all while enjoying a premium coffee-ordering experience."
+          skills={["Flutter", "Dart", "Fire base"]}
+        />
+        <ProjectCard
           src="/2.png"
           link="https://youtube.com/shorts/2Aa40WlWTU8?si=u5ot-gJwZd7LVK5Q"
           title="WrddWallet Flutter"
@@ -47,18 +61,18 @@ const Projects = () => {
           skills={["Flutter", "Dart", "Gemini", "Hive"]}
         />
         <ProjectCard
-          src="/5.png"
-          link="https://youtube.com/shorts/jx3vP4s0-Ew?si=DKR8xHz8_3r9g8rA"
-          title="Riwaya."
-          description="Riwaya is a modern coffee shop mobile app built with Flutter that offers a seamless ordering experience. The app features an elegant UI with curved animations, intuitive product browsing across categories, detailed customization options, and a smooth checkout process. Users can earn & collect points which result in earning rewards, all while enjoying a premium coffee-ordering experience."
+          src="/8.png"
+          link="https://github.com/joewrdd/Sapori-D-Italia"
+          title="Sapori D'Italia"
+          description="Sapori Di Italia, A beautifully designed Italian food ordering application built with Flutter, offering users a seamless experience to browse, order, and enjoy authentic Italian cuisine delivered right to their doorstep. Created to Engage More Into GetX State Management (Using Stuff Im Unfamiliar With For Testing Purposes)."
           skills={["Flutter", "Dart", "Fire base"]}
         />
         <ProjectCard
-          src="/6.png"
-          link="https://www.youtube.com/watch?v=Kxwv9YltdiU"
-          title="Otaku Wrdd"
-          description="OtakuWrdd an anime and manga tracking application built with Flutter and Firebase, offering users a seamless experience to discover, track, and manage their anime and manga collections. All data is fetched by Anime & Manga specific API's, and users can also search for any anime or manga they want by just a click of a button. Otaku Wrdd -_-"
-          skills={["Flutter", "Dart", "Fire base"]}
+          src="/7.png"
+          link="https://github.com/joewrdd/FlappyBird-FlutterFlame"
+          title="Flappy Bird"
+          description="A pixel-perfect recreation of the classic Flappy Bird game built with Flutter and the Flame game engine, offering smooth gameplay, authentic retro graphics, and challenging physics. Flame is a modular Flutter game engine that provides a complete set of out-of-the-way solutions for games. Its flexible, open source and runs everywhere."
+          skills={["Flutter", "Dart", "Flame"]}
         />
       </div>
     </div>
