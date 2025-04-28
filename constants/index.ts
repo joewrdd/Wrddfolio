@@ -53,6 +53,24 @@ export const skillsImagesData = [
     width: 34,
     height: 34,
   },
+  {
+    skill_name: "Django",
+    Image: "/django.png",
+    width: 28,
+    height: 28,
+  },
+  {
+    skill_name: "Python",
+    Image: "/python.png",
+    width: 32,
+    height: 32,
+  },
+  {
+    skill_name: "PyTorch",
+    Image: "/pytorch.png",
+    width: 30,
+    height: 30,
+  },
 ];
 
 export const Skill_data = [

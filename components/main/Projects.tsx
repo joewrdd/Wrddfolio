@@ -47,6 +47,13 @@ const Projects = () => {
           skills={["Flutter", "Dart", "Moralis", "Web3API"]}
         />
         <ProjectCard
+          src="/9.png"
+          link="https://github.com/joewrdd/PokemonPokedex"
+          title="Pokémon Pokédex"
+          description="A modern Pokédex application that combines Flutter for the frontend, Django for the backend, and PyTorch for image classification. Search for Pokémon, view detailed information, and identify Pokémon through image recognition.Find Pokémon by name with instant results, view comprehensive information about each Pokémon and powered by the OpenPokeAPI for accurate information"
+          skills={["Flutter", "Dart", "Django", "Python", "PyTorch"]}
+        />
+        <ProjectCard
           src="/3.png"
           link="https://youtube.com/shorts/uiFwAOrMZWg?si=3Ab-B0AxqnkBaFxZ"
           title="HyperCar Club"
