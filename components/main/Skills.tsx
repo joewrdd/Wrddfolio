@@ -64,11 +64,11 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="w-full flex justify-center mt-4">
         {Other_skill.map((item, index) => (
           <div
             key={index}
-            className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-white font-orbitron tracking-wider hover:scale-105 transition-all duration-300"
+            className="text-2xl sm:text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-white font-orbitron tracking-wider hover:scale-105 transition-all duration-300 text-center px-4 w-full"
           >
             {item.skill_name}
           </div>

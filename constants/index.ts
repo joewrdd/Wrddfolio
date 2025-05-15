@@ -71,6 +71,36 @@ export const skillsImagesData = [
     width: 30,
     height: 30,
   },
+  {
+    skill_name: "React",
+    Image: "/react.png",
+    width: 30,
+    height: 30,
+  },
+  {
+    skill_name: "Redux",
+    Image: "/Redux.png",
+    width: 30,
+    height: 30,
+  },
+  {
+    skill_name: "Nest Js",
+    Image: "/nestjs.png",
+    width: 30,
+    height: 30,
+  },
+  {
+    skill_name: "MongoDB",
+    Image: "/mongo.png",
+    width: 30,
+    height: 30,
+  },
+  {
+    skill_name: "Stripe",
+    Image: "/stripe.webp",
+    width: 28,
+    height: 28,
+  },
 ];
 
 export const Skill_data = [

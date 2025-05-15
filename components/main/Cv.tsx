@@ -17,7 +17,7 @@ const Cv = () => {
     >
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-white py-20 font-orbitron"
+        className="text-[28px] sm:text-[32px] md:text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-white py-10 md:py-20 font-orbitron text-center w-full px-4"
       >
         Want To Know More About Me?
       </motion.div>

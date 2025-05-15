@@ -81,6 +81,13 @@ const Projects = () => {
           description="A pixel-perfect recreation of the classic Flappy Bird game built with Flutter and the Flame game engine, offering smooth gameplay, authentic retro graphics, and challenging physics. Flame is a modular Flutter game engine that provides a complete set of out-of-the-way solutions for games. Its flexible, open source and runs everywhere."
           skills={["Flutter", "Dart", "Flame"]}
         />
+        <ProjectCard
+          src="/10.png"
+          link="https://youtu.be/-TRAjBLLWGM?si=Wo4uw_6ND11PApGi"
+          title="WrddAI"
+          description="A powerful AI-driven content generation platform built with React+Redux frontend and NestJS backend that helps users create high-quality, engaging content with voice input capabilities, centralized state management, and a seamless payment experience. The application integrates with Google's Gemini 1.5 Pro model to generate high-quality content."
+          skills={["React", "Redux", "Nest Js", "MongoDB", "Stripe"]}
+        />
       </div>
     </div>
   );

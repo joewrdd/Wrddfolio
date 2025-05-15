@@ -30,13 +30,15 @@ const Encryption = () => {
               target="_blank"
               className="flex flex-col items-center group transition-transform duration-200 scale-120"
             >
-              <Image
-                src="https://skillicons.dev/icons?i=github"
-                alt="GitHub"
-                width={70}
-                height={70}
-                className="rounded-xl scale-125"
-              />
+              <div className="w-[50px] h-[50px] flex items-center justify-center">
+                <Image
+                  src="/github-app.png"
+                  alt="GitHub"
+                  width={50}
+                  height={50}
+                  className="rounded-xl"
+                />
+              </div>
               <span className="text-white text-[10px] mt-2 font-roboto">
                 GitHub
               </span>
@@ -48,13 +50,15 @@ const Encryption = () => {
               target="_blank"
               className="flex flex-col items-center group transition-transform duration-200 scale-120"
             >
-              <Image
-                src="/egg.png"
-                alt="Instagram"
-                width={65}
-                height={65}
-                className="rounded-xl scale-150"
-              />
+              <div className="w-[50px] h-[50px] flex items-center justify-center">
+                <Image
+                  src="/instagram-app.png"
+                  alt="Instagram"
+                  width={50}
+                  height={50}
+                  className="rounded-xl"
+                />
+              </div>
               <span className="text-white text-[10px] mt-2 font-roboto">
                 Instagram
               </span>
@@ -66,13 +70,15 @@ const Encryption = () => {
               target="_blank"
               className="flex flex-col items-center group transition-transform duration-200 scale-120"
             >
-              <Image
-                src="/xx.png"
-                alt="X"
-                width={70}
-                height={70}
-                className="rounded-xl scale-150"
-              />
+              <div className="w-[50px] h-[50px] flex items-center justify-center">
+                <Image
+                  src="/twitter-app.png"
+                  alt="X"
+                  width={50}
+                  height={50}
+                  className="rounded-xl"
+                />
+              </div>
               <span className="text-white text-[10px] mt-2 font-roboto">X</span>
             </Link>
 
@@ -82,13 +88,15 @@ const Encryption = () => {
               target="_blank"
               className="flex flex-col items-center group transition-transform duration-200 scale-120"
             >
-              <Image
-                src="/wp.png"
-                alt="WhatsApp"
-                width={52}
-                height={52}
-                className="rounded-xl scale-125"
-              />
+              <div className="w-[50px] h-[50px] flex items-center justify-center">
+                <Image
+                  src="/wp-app.png"
+                  alt="WhatsApp"
+                  width={50}
+                  height={50}
+                  className="rounded-xl"
+                />
+              </div>
               <span className="text-white text-[10px] mt-2 font-roboto">
                 WhatsApp
               </span>
@@ -99,30 +107,34 @@ const Encryption = () => {
               href="#projects"
               className="flex flex-col items-center group transition-transform duration-200 scale-120"
             >
-              <Image
-                src="/projects.png"
-                alt="Projects"
-                width={52}
-                height={52}
-                className="rounded-xl scale-125"
-              />
+              <div className="w-[50px] h-[50px] flex items-center justify-center">
+                <Image
+                  src="/projects.png"
+                  alt="Projects"
+                  width={50}
+                  height={50}
+                  className="rounded-xl"
+                />
+              </div>
               <span className="text-white text-[10px] mt-2 font-roboto">
                 Projects
               </span>
             </Link>
             {/* LinkedIn App */}
             <Link
-              href="https://www.linkedin.com/in/joe-ward-385901309/"
+              href="https://www.linkedin.com/in/joe-ward-504718357/"
               target="_blank"
               className="flex flex-col items-center group transition-transform duration-200 scale-120"
             >
-              <Image
-                src="/linkedinn-2.png"
-                alt="LinkedIn"
-                width={60}
-                height={60}
-                className="rounded-xl scale-125"
-              />
+              <div className="w-[50px] h-[50px] flex items-center justify-center">
+                <Image
+                  src="/linkedin-app.png"
+                  alt="LinkedIn"
+                  width={50}
+                  height={50}
+                  className="rounded-xl"
+                />
+              </div>
               <span className="text-white text-[10px] mt-2 font-roboto">
                 LinkedIn
               </span>
@@ -132,14 +144,16 @@ const Encryption = () => {
               href="#skills"
               className="flex flex-col items-center group transition-transform duration-200 scale-120"
             >
-              <Image
-                src="/skills.png"
-                alt="Skills"
-                width={55}
-                height={55}
-                className="rounded-xl scale-125"
-              />
-              <span className="text-white text-[10px] mt-2.5 font-roboto">
+              <div className="w-[50px] h-[50px] flex items-center justify-center">
+                <Image
+                  src="/skills.png"
+                  alt="Skills"
+                  width={50}
+                  height={50}
+                  className="rounded-xl"
+                />
+              </div>
+              <span className="text-white text-[10px] mt-2 font-roboto">
                 Skills
               </span>
             </Link>
@@ -149,14 +163,16 @@ const Encryption = () => {
               target="_blank"
               className="flex flex-col items-center group transition-transform duration-200 scale-120"
             >
-              <Image
-                src="/youtubee.png"
-                alt="Youtube"
-                width={60}
-                height={60}
-                className="rounded-xl scale-125"
-              />
-              <span className="text-white text-[10px] mt-2.5 font-roboto">
+              <div className="w-[50px] h-[50px] flex items-center justify-center">
+                <Image
+                  src="/yt-app.png"
+                  alt="Youtube"
+                  width={50}
+                  height={50}
+                  className="rounded-xl"
+                />
+              </div>
+              <span className="text-white text-[10px] mt-2 font-roboto">
                 Youtube
               </span>
             </Link>
@@ -169,14 +185,16 @@ const Encryption = () => {
               }}
               className="flex flex-col items-center group transition-transform duration-200 scale-120"
             >
-              <Image
-                src="/aboutme.png"
-                alt="About Me"
-                width={55}
-                height={55}
-                className="rounded-xl scale-125"
-              />
-              <span className="text-white text-[10px] mt-2.5 font-roboto">
+              <div className="w-[50px] h-[50px] flex items-center justify-center">
+                <Image
+                  src="/aboutme.png"
+                  alt="About Me"
+                  width={50}
+                  height={50}
+                  className="rounded-xl"
+                />
+              </div>
+              <span className="text-white text-[10px] mt-2 font-roboto">
                 About
               </span>
             </Link>
@@ -189,39 +207,43 @@ const Encryption = () => {
               }}
               className="flex flex-col items-center group transition-transform duration-200 scale-120"
             >
-              <Image
-                src="/tetris.png"
-                alt="Tetris"
-                width={55}
-                height={55}
-                className="rounded-xl scale-125"
-              />
-              <span className="text-white text-[10px] mt-2.5 font-roboto">
+              <div className="w-[50px] h-[50px] flex items-center justify-center">
+                <Image
+                  src="/tetris.png"
+                  alt="Tetris"
+                  width={50}
+                  height={50}
+                  className="rounded-xl"
+                />
+              </div>
+              <span className="text-white text-[10px] mt-2 font-roboto">
                 Tetris
               </span>
             </Link>
             {/* MernAI App */}
             <Link
-              href="https://github.com/joewrdd/AIWrdd-MERN"
+              href="https://github.com/joewrdd/AIWrdd"
               target="_blank"
               className="flex flex-col items-center group transition-transform duration-200 scale-120"
             >
-              <Image
-                src="/mermaid.png"
-                alt="MernAI"
-                width={55}
-                height={55}
-                className="rounded-xl scale-125"
-              />
-              <span className="text-white text-[10px] mt-2.5 font-roboto">
+              <div className="w-[50px] h-[50px] flex items-center justify-center">
+                <Image
+                  src="/wrddai-app.png"
+                  alt="MernAI"
+                  width={50}
+                  height={50}
+                  className="rounded-xl"
+                />
+              </div>
+              <span className="text-white text-[10px] mt-2 font-roboto">
                 MernAI
               </span>
             </Link>
           </div>
         </div>
       </div>
-      <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
+      <div className="absolute z-[20] bottom-[-25px] sm:bottom-[8px] md:bottom-[10px] px-[5px] w-full">
+        <div className="cursive text-[16px] sm:text-[18px] md:text-[20px] font-medium text-center text-gray-300">
           私はジョー・ワード、フルスタックフラッター開発者です
         </div>
       </div>
