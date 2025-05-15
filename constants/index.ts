@@ -80,8 +80,8 @@ export const skillsImagesData = [
   {
     skill_name: "Redux",
     Image: "/Redux.png",
-    width: 30,
-    height: 30,
+    width: 28,
+    height: 28,
   },
   {
     skill_name: "Nest Js",
