@@ -78,8 +78,8 @@ export const skillsImagesData = [
     height: 30,
   },
   {
-    skill_name: "Redux",
-    Image: "/Redux.png",
+    skill_name: "Reduxx",
+    Image: "/reduxx.png",
     width: 28,
     height: 28,
   },

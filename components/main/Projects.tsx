@@ -86,7 +86,7 @@ const Projects = () => {
           link="https://youtu.be/-TRAjBLLWGM?si=Wo4uw_6ND11PApGi"
           title="WrddAI"
           description="A powerful AI-driven content generation platform built with React+Redux frontend and NestJS backend that helps users create high-quality, engaging content with voice input capabilities, centralized state management, and a seamless payment experience. The application integrates with Google's Gemini 1.5 Pro model to generate high-quality content."
-          skills={["React", "Redux", "Nest Js", "MongoDB", "Stripe"]}
+          skills={["React", "Reduxx", "Nest Js", "MongoDB", "Stripe"]}
         />
       </div>
     </div>
