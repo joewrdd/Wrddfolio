@@ -33,6 +33,13 @@ const Projects = () => {
           skills={["Flutter", "Dart", "Fire base"]}
         />
         <ProjectCard
+          src="/1.png"
+          link="https://youtu.be/W7Co15OOIC0?si=Tn3vEk96B81Dpet1"
+          title="PlainLiving"
+          description="Restraint Spending, Earn Freedom -> A comprehensive financial mindfulness application built with Flutter and Firebase, empowering users to track spending impulses, practice restraint, and achieve financial freedom through conscious decision making."
+          skills={["Flutter", "Dart", "Fire base"]}
+        />
+        <ProjectCard
           src="/8.png"
           link="https://youtube.com/shorts/jx3vP4s0-Ew?si=DKR8xHz8_3r9g8rA"
           title="Riwaya."
