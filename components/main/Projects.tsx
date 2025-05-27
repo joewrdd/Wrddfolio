@@ -36,7 +36,7 @@ const Projects = () => {
           src="/1.png"
           link="https://youtu.be/W7Co15OOIC0?si=Tn3vEk96B81Dpet1"
           title="PlainLiving"
-          description="Restraint Spending, Earn Freedom -> A comprehensive financial mindfulness application built with Flutter and Firebase, empowering users to track spending impulses, practice restraint, and achieve financial freedom through conscious decision making."
+          description="Restraint Spending, Earn Freedom -> A comprehensive financial mindfulness application built with Flutter and Firebase, empowering users to track spending impulses, practice restraint, and achieve financial freedom through conscious decision making. Users can also set goals and track their progress. Additionally, users are verified via OTP Verification."
           skills={["Flutter", "Dart", "Fire base"]}
         />
         <ProjectCard
