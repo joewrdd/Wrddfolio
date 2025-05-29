@@ -123,16 +123,16 @@ export const Skill_data = [
     height: 50,
   },
   {
+    skill_name: "GetX",
+    Image: "/getx.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Java Script",
     Image: "/js.png",
     width: 55,
     height: 55,
-  },
-  {
-    skill_name: "GitHub",
-    Image: "/github.png",
-    width: 70,
-    height: 70,
   },
   {
     skill_name: "Android",
@@ -311,8 +311,8 @@ export const Backend_skill = [
 
 export const Full_stack = [
   {
-    skill_name: "React Native",
-    Image: "/ReactNative .png",
+    skill_name: "Flame",
+    Image: "/flutterflame.png",
     width: 70,
     height: 70,
   },
@@ -323,17 +323,17 @@ export const Full_stack = [
     height: 70,
   },
   {
-    skill_name: "Docker",
-    Image: "/docker.webp",
-    width: 70,
-    height: 70,
+    skill_name: "Github",
+    Image: "/gitwhite.png",
+    width: 68,
+    height: 68,
   },
 
   {
     skill_name: "Figma",
     Image: "/figma.png",
-    width: 50,
-    height: 50,
+    width: 45,
+    height: 45,
   },
 ];
 
